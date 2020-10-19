@@ -1,0 +1,11 @@
+body{
+    background-color: lightgray;
+    color: firebrick;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
