@@ -1,5 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/phpstorm,sublimetext
 # Edit at https://www.toptal.com/developers/gitignore?templates=phpstorm,sublimetext
+#File type
+*.psd
+*.rar
+*.zip
 
 ### PhpStorm ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
