@@ -124,7 +124,7 @@ h4{
     padding: 10px 25px;
     transition: all .5s;
 }
-btn-shadow:hover{
+.btn-shadow:hover{
     box-shadow: 0 5px 0 #ff5990;
     color: #fff;
     background-color: #da1757;
