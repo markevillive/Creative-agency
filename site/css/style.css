@@ -158,6 +158,13 @@ h4{
     background-color: #3d2d69;
 }
 
+/*=================================Section-lets=================================*/
+.section-lets{
+    background: url("../img/story.png") center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
 
 /*  Large Device, Wide screens */
 @media only screen and (max-width: 1200px) {
@@ -172,7 +179,7 @@ h4{
     section{
         padding: 50px 0;
     }
-    
+
 }
 @media only screen and (max-width: 992px) {
     .navbar-nav{
@@ -221,24 +228,24 @@ h4{
         padding: 10px 15px;
         transition: all .5s;
 
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px) {
-    .section-watch .nav-pills .nav-link{
-        padding: 8px 16px;
-
-    }
-    .section-watch .nav-pills .nav-item{
-        width: 100%;
-        text-align: center;
-    }
-    
-}
-@media only screen and (max-width: 380px) {
-    .main-header .navbar-brand{
-        font-size: 30px;
     }
 
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width: 480px) {
+        .section-watch .nav-pills .nav-link{
+            padding: 8px 16px;
 
-}
+        }
+        .section-watch .nav-pills .nav-item{
+            width: 100%;
+            text-align: center;
+        }
+
+    }
+    @media only screen and (max-width: 380px) {
+        .main-header .navbar-brand {
+            font-size: 30px;
+        }
+
+
+    }
