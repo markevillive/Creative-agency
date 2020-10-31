@@ -220,6 +220,26 @@ h4{
 .gallery a:hover img{
     box-shadow: 0 14px 30px -15px rgba(0, 0, 0, .75);
 }
+/*============================================Section-brands=========================================*/
+.section-brands{
+    background-color: #46317c;
+}
+.section-brands a{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
