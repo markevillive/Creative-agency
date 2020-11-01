@@ -303,6 +303,20 @@ h4{
 .section-form .form-control:focus{
     box-shadow: 0 0 0 .2rem rgba(255,255,255,.25);
 }
+/*==============================section-social==================================*/
+.section-social{
+    background-color: #46317c;
+    color: #fff;
+}
+.section-social h5{
+    font-size: 30px;
+    font-weight: 600;
+}
+.section-social a{
+    color: #fff;
+    display: block;
+    margin-bottom: 20px;
+}
 
 
 
