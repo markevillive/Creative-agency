@@ -294,6 +294,20 @@ h4{
     section{
         padding: 50px 0;
     }
+    .section-reviews h3, .section-reviews h4{
+        font-size: 25px;
+
+    }
+    .section-reviews blockquote{
+        font-size: 17px;
+        padding-left: 20px;
+        margin-top: 40px;
+
+    }
+    .section-reviews .blockquote::before{
+        font-size: 100px;
+        top: -40px;
+    }
 
 }
 @media only screen and (max-width: 992px) {
@@ -344,6 +358,15 @@ h4{
         transition: all .5s;
 
     }
+    @media only screen and (max-width: 576px ){
+        .section-reviews .carousel-caption{
+            position:static;
+            width: 70%;
+            margin: auto;
+        }
+    }
+}
+
 
     /* Extra Small Devices, Phones */
     @media only screen and (max-width: 480px) {
