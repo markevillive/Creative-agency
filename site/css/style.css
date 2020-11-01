@@ -232,6 +232,37 @@ h4{
     margin-top: 25px;
     margin-bottom: 25px;
 }
+/*============================================Section-reviews=========================================*/
+.section-reviews{
+    background: url("../img/bacground_review.jpg") center no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+.section-reviews .carousel-caption{
+    top: 5%;
+    bottom: auto;
+    text-align: left;
+}
+.section-reviews .blockquote{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22px;
+    position: relative;
+    padding-left: 40px;
+    margin-top: 70px;
+}
+.section-reviews .blockquote::before{
+    content: '\201C';
+    float: left;
+    font-size: 150px;
+    font-weight: 500;
+    font-style: italic;
+    color: #f42267;
+    position: absolute;
+    top: -80px;
+    left: -33px;
+}
 
 
 
@@ -250,13 +281,6 @@ h4{
 
 
 
-
-
-<<<<<<< HEAD
->>>>>>> develop
-
-=======
->>>>>>> develop
 /*  Large Device, Wide screens */
 @media only screen and (max-width: 1200px) {
 
