@@ -165,8 +165,6 @@ h4{
     color: #fff;
 }
 
-<<<<<<< HEAD
-=======
 /*=================================section-design======================================*/
 .section-design h3,
 .section-design h4{
@@ -317,6 +315,56 @@ h4{
     display: block;
     margin-bottom: 20px;
 }
+/*=============================================FOOTER======================================================*/
+.footer {
+    background: url("../img/map.jpg") center no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    font-family: Poppins, sans-serif;
+
+}
+.footer h5{
+    font-size: 25px;
+    color: #4b2d7f;
+    font-weight: 700;
+}
+.footer ul{
+    list-style: none;
+    padding-left: 10px;
+
+}
+.footer ul li a{
+    font-size: 15px;
+    font-weight: 600;
+    color: #171717;
+}
+.footer-images img{
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.copyright{
+    background-color: #f6f6f6;
+    padding: 50px 0;
+    font-family: Poppins, sans-serif;
+}
+.copyright a, .copyright span{
+    color: #171717;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+}
+.copyright a:hover{
+    text-decoration: underline;
+
+}
+.copyright li a::after,.copyright li span::after{
+    content: '\00B7';
+    position: absolute;
+    right: -3px;
+}
+.copyright li:last-child a::after,.copyright :last-child span::after{
+    content: '';
+}
 
 
 
@@ -338,39 +386,42 @@ h4{
 }
 
 /* Medium Device, Desktops */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width : 992px) {
     .main-header-text{
-        background-color: rgba(0,0,0, .3);
+        background-color: rgba(0,0,0,.3);
     }
-    section{
+    section,
+    .footer{
         padding: 50px 0;
     }
-    .section-reviews h3, .section-reviews h4{
-        font-size: 25px;
-
+    .copyright{
+        padding: 25px 0;
     }
-    .section-reviews blockquote{
+    .section-reviews h3,
+    .section-reviews h4{
+        font-size: 25px;
+    }
+    .section-reviews .blockquote{
         font-size: 17px;
         padding-left: 20px;
         margin-top: 40px;
-
     }
     .section-reviews .blockquote::before{
         font-size: 100px;
         top: -40px;
     }
-
 }
-@media only screen and (max-width: 992px) {
+
+@media only screen and (max-width: 991px) {
     .navbar-nav{
         background: linear-gradient(45deg, #ed1b33 0%,#442e82 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         position: relative;
         z-index: 1;
         padding: 0 15px;
     }
-
-
 }
+
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -409,6 +460,7 @@ h4{
         transition: all .5s;
 
     }
+
     @media only screen and (max-width: 576px ){
         .section-reviews .carousel-caption{
             position:static;
