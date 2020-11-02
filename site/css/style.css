@@ -93,6 +93,36 @@ h4{
 .btn-violet{
     background-color: #69328e;
 }
+/*=================================================Inner Header==========================================*/
+.navbar-dark, .bg-dark{
+    background: linear-gradient(45deg, #ed1b33 0%,#442e82 100%)!important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+.navbar-brand{
+    font-size: 41px;
+}
+.navbar-brand, .navbar-dark ul li a{
+    color: #fff;
+    font-weight: 600;
+}
+.navbar-dark ul li a{
+    font-size: 17px;
+}
+.navbar-dark ul li a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+
+
+}
+.navbar-dark ul li a:hover::after{
+    transform: scale(1);
+}
+
 /*=========================================Section-Watch====================================*/
 .section-watch {
     background: url("../img/map.jpg") center no-repeat;
@@ -498,6 +528,13 @@ h4{
     color: #da1757;
 
 }
+/*=====================================SINGLE=======================================*/
+.article-preview address{
+    font-size: 14px;
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+
+}
 
 
 
@@ -540,7 +577,7 @@ h4{
 }
 
 @media only screen and (max-width: 991px) {
-    .main-header .navbar-nav{
+    /*.main-header*/ .navbar-nav{
         background: linear-gradient(45deg, #ed1b33 0%,#442e82 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         position: relative;
         z-index: 1;
